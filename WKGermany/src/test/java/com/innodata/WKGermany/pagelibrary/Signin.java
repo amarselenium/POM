@@ -38,7 +38,7 @@ public class Signin {
 		log.info("Enetring password to email textbox");
 		alreadypass.sendKeys(password);
 	}
-	/*	This method will click on submit button*/
+	/*	This method will click on submit buttonsss*/
 	public void clickonsubmitbutton()
 	{
 		log.info("Clickinng on signin button");
