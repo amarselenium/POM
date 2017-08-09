@@ -39,7 +39,7 @@ public class Signin {
 		alreadypass.sendKeys(password);
 	}
 	/*	This method will click on submit buttonsss
-	 * This is my third commit*/
+	 * This is my third commit color*/
 	public void clickonsubmitbutton()
 	{
 		log.info("Clickinng on signin button");
