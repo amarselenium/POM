@@ -13,8 +13,8 @@ public class CreateAnAccount {
 
      WebElement  Mrradiobutton = driver.findElement(By.xpath("//input[@id='id_gender1']"));
      WebElement  Mrsradiobutton = driver.findElement(By.xpath("//input[@id='id_gender2']"));
-     WebElement  Firstnametextbox = driver.findElement(By.xpath("//input[@id='customer_firstname']"));
-     WebElement  lastnametextbox = driver.findElement(By.xpath("//input[@id='customer_lastname']"));
+     WebElement  Personalinfoirstnametextbox = driver.findElement(By.xpath("//input[@id='customer_firstname']"));
+     WebElement  Personalinfolastnametextbox = driver.findElement(By.xpath("//input[@id='customer_lastname']"));
      WebElement  EmailPersonalinfo = driver.findElement(By.xpath("//input[@id='email']"));
      WebElement  PasswordPersonalInfo = driver.findElement(By.xpath("//input[@id='passwd']"));
      WebElement  DOBDay = driver.findElement(By.xpath("//select[@id='days']"));
@@ -25,5 +25,30 @@ public class CreateAnAccount {
      
      WebElement AdressLabel = driver.findElement(By.xpath("//h3[contains(text(),'Your address')]"));
     
+     WebElement AdressFirstname = driver.findElement(By.xpath("//input[@id='firstname']"));
+     WebElement AdressLastname = driver.findElement(By.xpath("//input[@id='lastname']"));
+     WebElement AdressCompany = driver.findElement(By.xpath("//input[@id='company']"));
+     WebElement AdressPrimary = driver.findElement(By.xpath("//input[@id='address1']"));
+     WebElement AdressSecondary = driver.findElement(By.xpath("//input[@id='address2']"));
+     WebElement AdressCity = driver.findElement(By.xpath("//input[@id='city']"));
+     WebElement AdressState = driver.findElement(By.xpath("//select[@id='id_state']"));
+     WebElement AdressPostcode = driver.findElement(By.xpath("//input[@id='postcode']"));
+     WebElement AdressCountry = driver.findElement(By.xpath("//select[@id='id_country']"));
+     WebElement AdressAdditionalInfo = driver.findElement(By.xpath("//textarea[@id='other']"));
+     WebElement AdressHomePhone = driver.findElement(By.xpath("//input[@id='phone']"));
+     WebElement AdressMobilePhone = driver.findElement(By.xpath("//input[@id='phone_mobile']"));
+     WebElement AdressAliasAdress = driver.findElement(By.xpath("//input[@name='alias']"));
+     
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
 }
