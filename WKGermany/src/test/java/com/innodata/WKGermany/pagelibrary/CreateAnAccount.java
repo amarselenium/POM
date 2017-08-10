@@ -38,6 +38,7 @@ public class CreateAnAccount {
      WebElement AdressHomePhone = driver.findElement(By.xpath("//input[@id='phone']"));
      WebElement AdressMobilePhone = driver.findElement(By.xpath("//input[@id='phone_mobile']"));
      WebElement AdressAliasAdress = driver.findElement(By.xpath("//input[@name='alias']"));
+     WebElement AdressRegisterButton = driver.findElement(By.xpath("//button[@id='submitAccount']"));
      
    
      
